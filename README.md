@@ -1,95 +1,98 @@
-# MaxStriX324
+# Максим Стародуб Михайлович — MaxStriX324
 
-### Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
+**Maksim Starodub / Maxim Starodub**  
+Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
 
-Привет! Я **Максим Стародуб (MaxStriX324)** — инженер-схемотехник и инженер-материаловед.
+Инженер-схемотехник из Саратова. Работаю на стыке **электроники, embedded-разработки, силовой электроники, электропривода, автомобильной техники и автоматизации**.
 
-Занимаюсь разработкой и отладкой электронных устройств, контроллеров и электроприводов — от схемы и печатной платы до прошивки микроконтроллера, обмена по CAN и испытаний готового устройства.
+Мне ближе полный инженерный цикл: понять физику процесса, разработать схему, собрать и наладить устройство, написать или доработать прошивку, провести измерения и проверить результат на реальном железе.
+
+**Персональный сайт:** [maxstrix324.github.io](https://maxstrix324.github.io/)
+
+## Основные направления
+
+- **Embedded Systems** — STM32F103 / STM32F405, C, периферия MCU, ADC, DMA, timers;
+- **Power Electronics** — IGBT/MOSFET, драйверы затворов, DC-link, изолированное питание, измерение токов и напряжений;
+- **Electric Drives** — инверторы, электродвигатели, ШИМ, рекуперация и системы управления;
+- **Automotive & EV** — CAN-сети, высоковольтные батареи, зарядные системы, телематика;
+- **Hardware & PCB** — аналоговая и цифровая схемотехника, KiCad, прототипирование, монтаж и диагностика;
+- **Interfaces** — CAN, RS-485, UART, SPI, I²C;
+- **Reverse Engineering** — исследование электронных блоков, плат, измерительных трактов и протоколов;
+- **Automation** — Python-сервисы, базы данных, боты и инструменты для автоматизации рутинных процессов.
+
+## Инструменты
+
+`C` · `Python` · `Kotlin` · `STM32` · `Git` · `KiCad` · `CAN` · `RS-485`
 
 Программирование для меня в первую очередь — **инженерный инструмент для управления реальным железом**.
 
-## 🔧 Основные направления
+## Избранные проекты
 
-- **Embedded systems** — STM32F103 / STM32F405, C
-- **Схемотехника** — аналоговая и цифровая электроника, интерфейсные и измерительные платы
-- **Силовая электроника** — IGBT, драйверы, DC-link, измерение токов и напряжений
-- **Электропривод** — инверторы, электродвигатели, системы управления
-- **Автомобильная электроника и EV** — высоковольтные системы, контроллеры, CAN
-- **Интерфейсы** — CAN, RS-485, UART, SPI, I²C
-- **Измерения и отладка** — осциллограф, логический анализатор, аппаратная диагностика
-- **Reverse engineering** — исследование электронных блоков, плат и протоколов
-- **Прототипирование** — от идеи и схемы до работающего устройства
-- **AI-assisted engineering** — использование ИИ в разработке, анализе, документации и исследовательской работе
+### Traction Inverter
 
-## 💻 Software
+Разработка трёхфазного тягового инвертора: силовые IGBT-модули, изолированные драйверы, измерение фазных токов и напряжений, аппаратные защиты и управление на STM32.
 
-Основная область — embedded-разработка, но периодически пишу прикладной софт и автоматизацию.
+`Power Electronics` · `STM32` · `CAN` · `HV`
 
-**Использую:**
+### Nissan Leaf HV Lab
 
-`C` · `Python` · `Kotlin` · `STM32` · `Git` · `KiCad`
+Работа с высоковольтной батареей Nissan Leaf AZE0, PDM, CAN, зарядкой и лабораторной инфраструктурой электротранспорта.
 
-## ⚡ Что мне интересно
-
-Больше всего интересуют проекты на пересечении:
-
-**электроники + механики + программирования + энергетики**
-
-Особенно:
-
-- электромобили и гибридные системы;
-- тяговые электроприводы;
-- высокомощные инверторы;
-- системы управления электродвигателями;
-- автомобильные CAN-сети;
-- измерительная электроника;
-- нестандартные инженерные устройства;
-- реверс-инжиниринг существующей техники.
-
-Мне интересны задачи, где результат работы можно не только увидеть в коде, но и **измерить осциллографом, проверить на стенде и заставить работать в реальном устройстве**.
-
-## 🚧 Проекты
+`EV` · `CAN` · `BMS` · `High Voltage`
 
 ### [WorkBalance-Android](https://github.com/MaxStriX324/WorkBalance-Android)
 
-Локальное Android-приложение для учёта рабочего времени, обеда и месячного баланса.
+Android-приложение для учёта рабочего времени, обеда, месячного баланса и прогноза времени ухода.
 
 `Kotlin` · `Android`
 
 ### [telegram_vk_chat_bot](https://github.com/MaxStriX324/telegram_vk_chat_bot)
 
-Чат-бот с общей логикой для Telegram и ВКонтакте.
+Один из ранних программных проектов — чат-бот с общей логикой для Telegram и ВКонтакте.
 
 `Python`
 
 ### [poster_vk](https://github.com/MaxStriX324/poster_vk)
 
-Один из моих ранних проектов автоматизации публикаций ВКонтакте.
+Ранний проект автоматизации публикаций ВКонтакте.
 
 `Python`
 
-## 🛠 Сейчас работаю над
+### ПАЗ-3206 4×4 «Черепаха»
 
-- контроллерами на STM32;
-- силовой электроникой и электроприводом;
-- автомобильными CAN-системами;
-- высоковольтной EV-электроникой;
-- измерительными и управляющими платами;
-- собственными аппаратно-программными проектами.
+Полноприводный автобус, который постепенно превращается в автономный автодом и инженерную платформу. Автомобильные работы и бортжурнал публикую на DRIVE2.
 
-Часть инженерных разработок не публикуется полностью, но постепенно буду переносить сюда проекты, которые можно открыть.
+[Бортжурнал на DRIVE2](https://www.drive2.ru/users/maxstrix324/)
 
----
+## Образование
 
-### English
+По первому образованию — **инженер-материаловед**. Сейчас продолжаю обучение в магистратуре по направлению **электроэнергетики и электротехники**.
 
-I'm a hardware and embedded systems engineer working with **STM32, power electronics, electric drives, automotive electronics and CAN-based control systems**.
+Такое сочетание даёт мне интересный набор областей: материаловедение, механика, электроника, программирование и электрические машины.
 
-My main interests are embedded control, inverter hardware, EV systems, measurement electronics, reverse engineering and projects where software directly interacts with real hardware.
+## Сейчас работаю над
 
----
+Контроллерами на STM32, силовой электроникой и электроприводом, автомобильными CAN-системами, высоковольтной EV-электроникой, измерительными платами и собственными аппаратно-программными проектами.
 
-### 📫 Contacts
+Часть профессиональных разработок нельзя публиковать полностью, поэтому в открытый доступ постепенно переношу только те материалы и проекты, которыми можно делиться.
 
-**Telegram:** [@MaxStriX324](https://t.me/MaxStriX324)  
-**GitHub:** [@MaxStriX324](https://github.com/MaxStriX324)
+## English
+
+I'm **Maksim Starodub (MaxStriX324)**, a hardware and embedded systems engineer working with **STM32, power electronics, electric drives, automotive electronics, EV systems and CAN-based control systems**.
+
+My main interest is engineering where software directly interacts with physical hardware: controllers, inverter electronics, measurement systems, reverse engineering and real-world testing.
+
+More about me and my projects: [maxstrix324.github.io](https://maxstrix324.github.io/)
+
+## Links
+
+- Website: [maxstrix324.github.io](https://maxstrix324.github.io/)
+- GitHub: [@MaxStriX324](https://github.com/MaxStriX324)
+- Telegram: [@MaxStriX324](https://t.me/MaxStriX324)
+- VK: [maxstrix324](https://vk.ru/maxstrix324)
+- DRIVE2: [MaxStriX324](https://www.drive2.ru/users/maxstrix324/)
+- YouTube: [@MaxStriX324](https://www.youtube.com/@MaxStriX324/featured)
+- RUTUBE: [channel/6327951](https://rutube.ru/channel/6327951/)
+- Дзен: [maxstrix324](https://dzen.ru/maxstrix324)
+- Пикабу: [@MaxStriX324](https://pikabu.ru/@MaxStriX324)
+- Instagram: [@maxstrix324](https://www.instagram.com/maxstrix324/)
