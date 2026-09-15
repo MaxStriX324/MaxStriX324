@@ -40,6 +40,12 @@ Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
 
 `EV` · `CAN` · `BMS` · `High Voltage`
 
+### 900 рук
+
+Бесплатная афиша мероприятий Саратовской области: единое место для событий от театров и фестивалей до небольших студий, ДК, библиотек, кафе и мастерских. Проектирую и разворачиваю сервис самостоятельно: веб-приложение, серверная инфраструктура, база данных, публикация и автоматизация наполнения.
+
+`Web` · `Linux` · `Nginx` · `PostgreSQL` · `Self-hosting` · `Automation`
+
 ### [WorkBalance-Android](https://github.com/MaxStriX324/WorkBalance-Android)
 
 Android-приложение для учёта рабочего времени, обеда, месячного баланса и прогноза времени ухода.
@@ -74,6 +80,8 @@ Android-приложение для учёта рабочего времени, 
 
 Контроллерами на STM32, силовой электроникой и электроприводом, автомобильными CAN-системами, высоковольтной EV-электроникой, измерительными платами и собственными аппаратно-программными проектами.
 
+Параллельно развиваю собственные программные и веб-проекты, включая **«900 рук»** — бесплатную афишу мероприятий Саратовской области.
+
 Часть профессиональных разработок нельзя публиковать полностью, поэтому в открытый доступ постепенно переношу только те материалы и проекты, которыми можно делиться.
 
 ## English
@@ -88,6 +96,7 @@ More about me and my projects: [maxstrix324.github.io](https://maxstrix324.githu
 
 - Website: [maxstrix324.github.io](https://maxstrix324.github.io/)
 - GitHub: [@MaxStriX324](https://github.com/MaxStriX324)
+- Habr: [@MaxStriX324](https://habr.com/ru/users/MaxStriX324/)
 - Telegram: [@MaxStriX324](https://t.me/MaxStriX324)
 - VK: [maxstrix324](https://vk.ru/maxstrix324)
 - DRIVE2: [MaxStriX324](https://www.drive2.ru/users/maxstrix324/)
