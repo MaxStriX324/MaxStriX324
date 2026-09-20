@@ -22,7 +22,7 @@ Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
 
 ## Инструменты
 
-`C` · `Python` · `Kotlin` · `STM32` · `Git` · `KiCad` · `CAN` · `RS-485`
+`C` · `Python` · `Kotlin` · `STM32` · `Git` · `KiCad` · `CAN` · `RS-485` · `Linux` · `Docker` · `PostgreSQL`
 
 Программирование для меня в первую очередь — **инженерный инструмент для управления реальным железом**.
 
@@ -42,9 +42,9 @@ Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
 
 ### 900 рук
 
-Бесплатная афиша мероприятий Саратовской области: единое место для событий от театров и фестивалей до небольших студий, ДК, библиотек, кафе и мастерских. Проектирую и разворачиваю сервис самостоятельно: веб-приложение, серверная инфраструктура, база данных, публикация и автоматизация наполнения.
+Бесплатная афиша мероприятий Саратовской области: единое место для событий от театров и фестивалей до небольших студий, ДК, библиотек, кафе и мастерских. Проектирую и разворачиваю сервис самостоятельно: веб-приложение, база данных, контейнеризация, reverse proxy, домашняя серверная инфраструктура и автоматизация наполнения.
 
-`Web` · `Linux` · `Nginx` · `PostgreSQL` · `Self-hosting` · `Automation`
+`Django` · `PostgreSQL` · `Docker` · `Caddy` · `Linux` · `Self-hosting` · `Automation`
 
 ### [WorkBalance-Android](https://github.com/MaxStriX324/WorkBalance-Android)
 
@@ -52,29 +52,31 @@ Android-приложение для учёта рабочего времени, 
 
 `Kotlin` · `Android`
 
-### [telegram_vk_chat_bot](https://github.com/MaxStriX324/telegram_vk_chat_bot)
-
-Один из ранних программных проектов — чат-бот с общей логикой для Telegram и ВКонтакте.
-
-`Python`
-
-### [poster_vk](https://github.com/MaxStriX324/poster_vk)
-
-Ранний проект автоматизации публикаций ВКонтакте.
-
-`Python`
-
 ### ПАЗ-3206 4×4 «Черепаха»
 
 Полноприводный автобус, который постепенно превращается в автономный автодом и инженерную платформу. Автомобильные работы и бортжурнал публикую на DRIVE2.
 
 [Бортжурнал на DRIVE2](https://www.drive2.ru/users/maxstrix324/)
 
+## Ранние программные проекты
+
+### [telegram_vk_chat_bot](https://github.com/MaxStriX324/telegram_vk_chat_bot)
+
+Чат-бот с общей логикой для Telegram и ВКонтакте.
+
+`Python`
+
+### [poster_vk](https://github.com/MaxStriX324/poster_vk)
+
+Проект автоматизации отложенных публикаций ВКонтакте через сообщения.
+
+`Python`
+
 ## Образование
 
-По первому образованию — **инженер-материаловед**. Сейчас продолжаю обучение в магистратуре по направлению **электроэнергетики и электротехники**.
+Первое высшее образование — **материаловедение и технологии материалов**. Сейчас обучаюсь в магистратуре по направлению **электроэнергетики и электротехники**.
 
-Такое сочетание даёт мне интересный набор областей: материаловедение, механика, электроника, программирование и электрические машины.
+Такое сочетание даёт мне практическую базу на стыке материаловедения, механики, электроники, программирования и электрических машин.
 
 ## Сейчас работаю над
 
@@ -100,7 +102,7 @@ More about me and my projects: [maxstrix324.github.io](https://maxstrix324.githu
 - Telegram: [@MaxStriX324](https://t.me/MaxStriX324)
 - VK: [maxstrix324](https://vk.ru/maxstrix324)
 - DRIVE2: [MaxStriX324](https://www.drive2.ru/users/maxstrix324/)
-- YouTube: [@MaxStriX324](https://www.youtube.com/@MaxStriX324/featured)
+- YouTube: [@MaxStriX324](https://www.youtube.com/@MaxStriX324)
 - RUTUBE: [channel/6327951](https://rutube.ru/channel/6327951/)
 - Дзен: [maxstrix324](https://dzen.ru/maxstrix324)
 - Пикабу: [@MaxStriX324](https://pikabu.ru/@MaxStriX324)
