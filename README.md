@@ -28,9 +28,9 @@ Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
 
 ## Избранные проекты
 
-### Traction Inverter
+### [Traction Inverter](https://maxstrix324.github.io/projects/traction-inverter/)
 
-Разработка трёхфазного тягового инвертора: силовые IGBT-модули, изолированные драйверы, измерение фазных токов и напряжений, аппаратные защиты и управление на STM32.
+Разработка трёхфазного тягового инвертора: силовые IGBT-модули, изолированные драйверы, измерение фазных токов и напряжений, аппаратные защиты и управление на STM32. [Engineering case study →](https://maxstrix324.github.io/projects/traction-inverter/)
 
 `Power Electronics` · `STM32` · `CAN` · `HV`
 
