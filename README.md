@@ -38,6 +38,8 @@ Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
 
 Работа с высоковольтной батареей Nissan Leaf AZE0, PDM, CAN, зарядкой и лабораторной инфраструктурой электротранспорта.
 
+[**Battery-Emulator / Вторая жизнь высоковольтных батарей / Автономный дом / ВВБ Nissan Leaf и PDM AZE0** — статья на DRIVE2 ↗](https://www.drive2.ru/b/741266551264528987/)
+
 `EV` · `CAN` · `BMS` · `High Voltage`
 
 ### 900 рук
