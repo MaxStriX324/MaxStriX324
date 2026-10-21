@@ -1,111 +1,97 @@
-# Максим Стародуб Михайлович — MaxStriX324
+# Максим Стародуб · MaxStriX324
 
-**Maksim Starodub / Maxim Starodub**  
-Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives
+**Hardware Engineer · Embedded Systems · Power Electronics · Electric Drives · Automation**
 
-Инженер-схемотехник из Саратова. Работаю на стыке **электроники, embedded-разработки, силовой электроники, электропривода, автомобильной техники и автоматизации**.
+Привет! Я Максим, инженер-схемотехник из Саратова. Занимаюсь электроникой, микроконтроллерами, силовой преобразовательной техникой, электроприводом и автоматизацией.
 
-Мне ближе полный инженерный цикл: понять физику процесса, разработать схему, собрать и наладить устройство, написать или доработать прошивку, провести измерения и проверить результат на реальном железе.
+Мне интересен **полный цикл разработки**: от идеи и расчётов до схемы, печатной платы, прошивки, измерений, поиска неисправностей и проверки устройства в реальных условиях. Если какую-то операцию приходится повторять много раз, стараюсь написать инструмент, который сделает её автоматически.
 
-**Персональный сайт:** [maxstrix324.github.io](https://maxstrix324.github.io/)
+**[Персональный сайт](https://maxstrix324.github.io/)** · **[Все проекты](https://maxstrix324.github.io/projects/)** · **[Автоматизация лаборатории](https://maxstrix324.github.io/projects/lab-automation/)** · **[Habr](https://habr.com/ru/users/MaxStriX324/)** · **[DRIVE2](https://www.drive2.ru/users/maxstrix324/)**
 
-## Основные направления
+## Инженерные направления
 
-- **Embedded Systems** — STM32F103 / STM32F405, C, периферия MCU, ADC, DMA, timers;
-- **Power Electronics** — IGBT/MOSFET, драйверы затворов, DC-link, изолированное питание, измерение токов и напряжений;
-- **Electric Drives** — инверторы, электродвигатели, ШИМ, рекуперация и системы управления;
-- **Automotive & EV** — CAN-сети, высоковольтные батареи, зарядные системы, телематика;
-- **Hardware & PCB** — аналоговая и цифровая схемотехника, KiCad, прототипирование, монтаж и диагностика;
-- **Interfaces** — CAN, RS-485, UART, SPI, I²C;
-- **Reverse Engineering** — исследование электронных блоков, плат, измерительных трактов и протоколов;
-- **Automation** — Python-сервисы, базы данных, боты и инструменты для автоматизации рутинных процессов.
+- **Embedded и управление:** STM32F103/F405, C, ADC, DMA, таймеры, ШИМ, UART, SPI, I²C, CAN, RS-485.
+- **Силовая электроника:** IGBT/MOSFET, драйверы, DC-link, импульсные источники питания, гальваническая развязка, измерение токов и напряжений.
+- **Электропривод:** трёхфазные инверторы, управление электродвигателями, защиты, рекуперация.
+- **Автомобильная и EV-электроника:** высоковольтные батареи, зарядка, CAN, диагностика и интеграция оборудования.
+- **Схемотехника и PCB:** KiCad, аналоговые измерительные тракты, прототипирование, пайка, работа с осциллографами и логическими анализаторами.
+- **Программная автоматизация:** Python, Linux, Docker, базы данных, веб-сервисы, боты и локальные инструменты для инженерной работы.
 
-## Инструменты
+`C` · `Python` · `Kotlin` · `STM32` · `KiCad` · `Git` · `Linux` · `Docker` · `PostgreSQL` · `CAN` · `RS-485`
 
-`C` · `Python` · `Kotlin` · `STM32` · `Git` · `KiCad` · `CAN` · `RS-485` · `Linux` · `Docker` · `PostgreSQL`
+## Автоматизация лаборатории — open source
 
-Программирование для меня в первую очередь — **инженерный инструмент для управления реальным железом**.
+Три утилиты для повседневной работы с печатными платами, станком и измерениями. Каждая опубликована с исходным кодом и инструкцией по запуску.
 
-## Избранные проекты
+| Проект | Задача | Результат |
+| --- | --- | --- |
+| **[KiCad SVG → LaserGRBL](https://github.com/MaxStriX324/kicad-svg-lasergrbl)** | Пакетная подготовка слоёв плат из KiCad для лазерной обработки | Монохромные PNG, размеры и настройки импорта из SVG |
+| **[KiCad DRL → CNC3018](https://github.com/MaxStriX324/kicad-drl-cnc3018)** | Преобразование сверловки Excellon для GRBL-станка | G-code `.tap` отдельно по диаметрам сверла |
+| **[Rigol Oscilloscope Sorter](https://github.com/MaxStriX324/rigol-oscilloscope-sorter)** | Автоматическая организация измерений с DHO814 и DHO924S | Архив PNG, CSV/BIN, STP; экспорт поддерживаемых сигналов в XLSX |
 
-### [Traction Inverter](https://maxstrix324.github.io/projects/traction-inverter/)
+**Как они используются:** проектирую плату в KiCad → готовлю лазерные изображения и программы сверловки → после сборки сохраняю измерения с Rigol в упорядоченный архив.
 
-Разработка трёхфазного тягового инвертора: силовые IGBT-модули, изолированные драйверы, измерение фазных токов и напряжений, аппаратные защиты и управление на STM32. [Engineering case study →](https://maxstrix324.github.io/projects/traction-inverter/)
+Утилита CNC генерирует траектории, которые необходимо проверить перед работой на станке; продолговатые пазы она пока не фрезерует. Сортировщик Rigol сохраняет оригиналы, но не заявляет преобразование всех 16 цифровых каналов PLA2216 в Excel.
 
-`Power Electronics` · `STM32` · `CAN` · `HV`
+[Описание лабораторной автоматизации на моём сайте →](https://maxstrix324.github.io/projects/lab-automation/)
 
-### Nissan Leaf HV Lab
+## Инженерные и аппаратные проекты
 
-Работа с высоковольтной батареей Nissan Leaf AZE0, PDM, CAN, зарядкой и лабораторной инфраструктурой электротранспорта.
+### [Тяговый инвертор](https://maxstrix324.github.io/projects/traction-inverter/)
 
-[**Battery-Emulator / Вторая жизнь высоковольтных батарей / Автономный дом / ВВБ Nissan Leaf и PDM AZE0** — статья на DRIVE2 ↗](https://www.drive2.ru/b/741266551264528987/)
+Разработка трёхфазного инвертора для электропривода: IGBT, изолированные драйверы затворов, измерение фазных токов и напряжений, аппаратные защиты и управление на STM32.
 
-`EV` · `CAN` · `BMS` · `High Voltage`
+`Power Electronics` · `STM32` · `IGBT` · `CAN` · `High Voltage`
 
-### 900 рук
+### [Nissan Leaf HV Lab](https://www.drive2.ru/b/741266551264528987/)
 
-Бесплатная афиша мероприятий Саратовской области: единое место для событий от театров и фестивалей до небольших студий, ДК, библиотек, кафе и мастерских. Проектирую и разворачиваю сервис самостоятельно: веб-приложение, база данных, контейнеризация, reverse proxy, домашняя серверная инфраструктура и автоматизация наполнения.
+Эксперименты с высоковольтной батареей Nissan Leaf AZE0, PDM, CAN-обменом и зарядкой. Изучаю, как можно применять автомобильные компоненты в других энергетических и электротранспортных системах.
 
-`Django` · `PostgreSQL` · `Docker` · `Caddy` · `Linux` · `Self-hosting` · `Automation`
+`EV` · `CAN` · `Battery` · `High Voltage`
 
-### [WorkBalance-Android](https://github.com/MaxStriX324/WorkBalance-Android)
+### [ПАЗ-3206 4×4 «Черепаха»](https://www.drive2.ru/r/other/725506426469878483/)
 
-Android-приложение для учёта рабочего времени, обеда, месячного баланса и прогноза времени ухода.
+Полноприводный автобус как основа для будущего автодома. Постепенно занимаюсь восстановлением, компоновкой систем автономного жизнеобеспечения и проработкой электрической части. Гибридный привод и солнечная энергетика — направления исследования, а не готовая окончательная конструкция.
 
-`Kotlin` · `Android`
+[Бортжурнал и автомобильные проекты на DRIVE2 →](https://www.drive2.ru/users/maxstrix324/)
 
-### ПАЗ-3206 4×4 «Черепаха»
+## Программные проекты
 
-Полноприводный автобус, который постепенно превращается в автономный автодом и инженерную платформу. Автомобильные работы и бортжурнал публикую на DRIVE2.
+### [900 рук — афиша Саратова и Саратовской области](https://900pyk.club/)
 
-[Бортжурнал на DRIVE2](https://www.drive2.ru/users/maxstrix324/)
+Собственный веб-проект для поиска мероприятий и площадок. Вокруг сайта строится автоматизированный процесс сбора, обработки, проверки и публикации информации из различных источников, а также инфраструктура развёртывания на домашнем Linux-сервере.
 
-## Ранние программные проекты
+`Django` · `PostgreSQL` · `Docker` · `Caddy` · `Python` · `Self-hosting`
 
-### [telegram_vk_chat_bot](https://github.com/MaxStriX324/telegram_vk_chat_bot)
+### [WorkBalance для Android](https://github.com/MaxStriX324/WorkBalance-Android)
 
-Чат-бот с общей логикой для Telegram и ВКонтакте.
+Локальное Android-приложение для учёта рабочего времени: приход, уход, перерывы, баланс часов, календарь и прогноз времени завершения рабочего дня. Поддерживает русский и английский интерфейсы.
 
-`Python`
+`Kotlin` · `Android` · `Offline-first`
 
-### [poster_vk](https://github.com/MaxStriX324/poster_vk)
+### Ранние проекты автоматизации
 
-Проект автоматизации отложенных публикаций ВКонтакте через сообщения.
+- **[telegram_vk_chat_bot](https://github.com/MaxStriX324/telegram_vk_chat_bot)** — общая логика чат-бота для Telegram и ВКонтакте.
+- **[poster_vk](https://github.com/MaxStriX324/poster_vk)** — отложенная публикация записей ВКонтакте через сообщения.
 
-`Python`
+## Обо мне
 
-## Образование
+Первое высшее образование — **материаловедение и технологии материалов**; также обучаюсь в магистратуре по направлению **электроэнергетики и электротехники**. Мне близка работа на пересечении механики, материалов, программирования и электроники.
 
-Первое высшее образование — **материаловедение и технологии материалов**. Сейчас обучаюсь в магистратуре по направлению **электроэнергетики и электротехники**.
+Часть профессиональных разработок не может быть опубликована полностью. Здесь собираю личные проекты, открытые инструменты и технические материалы, которыми могу поделиться.
 
-Такое сочетание даёт мне практическую базу на стыке материаловедения, механики, электроники, программирования и электрических машин.
+## English / About me
 
-## Сейчас работаю над
+I'm **Maksim Starodub (MaxStriX324)**, a hardware and embedded systems engineer based in Saratov. My work and personal projects span **STM32, power electronics, motor drives, EV systems, CAN, PCB design, measurement and automation**.
 
-Контроллерами на STM32, силовой электроникой и электроприводом, автомобильными CAN-системами, высоковольтной EV-электроникой, измерительными платами и собственными аппаратно-программными проектами.
+I enjoy end-to-end engineering, from schematics and firmware to prototypes, oscilloscope measurements and testing on real hardware. I also publish small open-source tools that streamline PCB manufacturing and laboratory workflows.
 
-Параллельно развиваю собственные программные и веб-проекты, включая **«900 рук»** — бесплатную афишу мероприятий Саратовской области.
+**Portfolio:** [maxstrix324.github.io](https://maxstrix324.github.io/) · **Open-source lab tools:** [Lab Automation](https://maxstrix324.github.io/projects/lab-automation/)
 
-Часть профессиональных разработок нельзя публиковать полностью, поэтому в открытый доступ постепенно переношу только те материалы и проекты, которыми можно делиться.
+## Связь и публикации
 
-## English
+[Персональный сайт](https://maxstrix324.github.io/) · [GitHub](https://github.com/MaxStriX324) · [Habr](https://habr.com/ru/users/MaxStriX324/) · [DRIVE2](https://www.drive2.ru/users/maxstrix324/) · [Telegram](https://t.me/MaxStriX324) · [VK](https://vk.ru/maxstrix324) · [YouTube](https://www.youtube.com/@MaxStriX324) · [RUTUBE](https://rutube.ru/channel/6327951/) · [Дзен](https://dzen.ru/maxstrix324) · [Пикабу](https://pikabu.ru/@MaxStriX324)
 
-I'm **Maksim Starodub (MaxStriX324)**, a hardware and embedded systems engineer working with **STM32, power electronics, electric drives, automotive electronics, EV systems and CAN-based control systems**.
+---
 
-My main interest is engineering where software directly interacts with physical hardware: controllers, inverter electronics, measurement systems, reverse engineering and real-world testing.
-
-More about me and my projects: [maxstrix324.github.io](https://maxstrix324.github.io/)
-
-## Links
-
-- Website: [maxstrix324.github.io](https://maxstrix324.github.io/)
-- GitHub: [@MaxStriX324](https://github.com/MaxStriX324)
-- Habr: [@MaxStriX324](https://habr.com/ru/users/MaxStriX324/)
-- Telegram: [@MaxStriX324](https://t.me/MaxStriX324)
-- VK: [maxstrix324](https://vk.ru/maxstrix324)
-- DRIVE2: [MaxStriX324](https://www.drive2.ru/users/maxstrix324/)
-- YouTube: [@MaxStriX324](https://www.youtube.com/@MaxStriX324)
-- RUTUBE: [channel/6327951](https://rutube.ru/channel/6327951/)
-- Дзен: [maxstrix324](https://dzen.ru/maxstrix324)
-- Пикабу: [@MaxStriX324](https://pikabu.ru/@MaxStriX324)
-- Instagram: [@maxstrix324](https://www.instagram.com/maxstrix324/)
+*Интереснее всего не просто придумать устройство, а понять, как оно работает, собрать и довести до результата.*
