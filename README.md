@@ -6,7 +6,7 @@
 
 Мне интересен **полный цикл разработки**: от идеи и расчётов до схемы, печатной платы, прошивки, измерений, поиска неисправностей и проверки устройства в реальных условиях. Если какую-то операцию приходится повторять много раз, стараюсь написать инструмент, который сделает её автоматически.
 
-**[Персональный сайт](https://maxstrix324.github.io/)** · **[Все проекты](https://maxstrix324.github.io/projects/)** · **[Автоматизация лаборатории](https://maxstrix324.github.io/projects/lab-automation/)** · **[Habr](https://habr.com/ru/users/MaxStriX324/)** · **[DRIVE2](https://www.drive2.ru/users/maxstrix324/)**
+**[Персональный сайт](https://maxstrix324.github.io/)** · **[Каталог проектов](https://maxstrix324.github.io/project/)** · **[Автоматизация лаборатории](https://maxstrix324.github.io/project/lab-automation/)** · **[Habr](https://habr.com/ru/users/MaxStriX324/)** · **[DRIVE2](https://www.drive2.ru/users/maxstrix324/)**
 
 ## Инженерные направления
 
@@ -33,23 +33,17 @@
 
 Утилита CNC генерирует траектории, которые необходимо проверить перед работой на станке; продолговатые пазы она пока не фрезерует. Сортировщик Rigol сохраняет оригиналы, но не заявляет преобразование всех 16 цифровых каналов PLA2216 в Excel.
 
-[Описание лабораторной автоматизации на моём сайте →](https://maxstrix324.github.io/projects/lab-automation/)
+[Описание лабораторной автоматизации на моём сайте →](https://maxstrix324.github.io/project/lab-automation/)
 
 ## Инженерные и аппаратные проекты
 
-### [Тяговый инвертор](https://maxstrix324.github.io/projects/traction-inverter/)
-
-Разработка трёхфазного инвертора для электропривода: IGBT, изолированные драйверы затворов, измерение фазных токов и напряжений, аппаратные защиты и управление на STM32.
-
-`Power Electronics` · `STM32` · `IGBT` · `CAN` · `High Voltage`
-
-### [Nissan Leaf HV Lab](https://www.drive2.ru/b/741266551264528987/)
+### [Nissan Leaf HV Lab](https://maxstrix324.github.io/project/nissan-leaf-hv/)
 
 Эксперименты с высоковольтной батареей Nissan Leaf AZE0, PDM, CAN-обменом и зарядкой. Изучаю, как можно применять автомобильные компоненты в других энергетических и электротранспортных системах.
 
 `EV` · `CAN` · `Battery` · `High Voltage`
 
-### [ПАЗ-3206 4×4 «Черепаха»](https://www.drive2.ru/r/other/725506426469878483/)
+### [ПАЗ-3206 4×4 «Черепаха»](https://maxstrix324.github.io/project/paz-3206/)
 
 Полноприводный автобус как основа для будущего автодома. Постепенно занимаюсь восстановлением, компоновкой систем автономного жизнеобеспечения и проработкой электрической части. Гибридный привод и солнечная энергетика — направления исследования, а не готовая окончательная конструкция.
 
@@ -57,7 +51,7 @@
 
 ## Программные проекты
 
-### [900 рук — афиша Саратова и Саратовской области](https://900pyk.club/)
+### [900 рук — афиша Саратова и Саратовской области](https://maxstrix324.github.io/project/900-ruk/)
 
 Собственный веб-проект для поиска мероприятий и площадок. Вокруг сайта строится автоматизированный процесс сбора, обработки, проверки и публикации информации из различных источников, а также инфраструктура развёртывания на домашнем Linux-сервере.
 
@@ -86,7 +80,7 @@ I'm **Maksim Starodub (MaxStriX324)**, a hardware and embedded systems engineer 
 
 I enjoy end-to-end engineering, from schematics and firmware to prototypes, oscilloscope measurements and testing on real hardware. I also publish small open-source tools that streamline PCB manufacturing and laboratory workflows.
 
-**Portfolio:** [maxstrix324.github.io](https://maxstrix324.github.io/) · **Open-source lab tools:** [Lab Automation](https://maxstrix324.github.io/projects/lab-automation/)
+**Portfolio:** [maxstrix324.github.io](https://maxstrix324.github.io/) · **Open-source lab tools:** [Lab Automation](https://maxstrix324.github.io/project/lab-automation/)
 
 ## Связь и публикации
 
