@@ -19,23 +19,25 @@
 
 `C` · `Python` · `Kotlin` · `STM32` · `KiCad` · `Git` · `Linux` · `Docker` · `PostgreSQL` · `CAN` · `RS-485`
 
+<!-- LAB_TOOLS_GENERATED_START -->
 ## Автоматизация лаборатории — open source
 
-Пять открытых утилит для подготовки печатных плат, прошивки микроконтроллеров и организации измерений. У каждой — исходный код, способ запуска и описание ограничений.
+5 открытых утилит для работы с печатными платами, STM32 и лабораторными измерениями. Технические инструкции и ограничения поддерживаются в репозиториях.
 
 | Проект | Задача | Результат |
 | --- | --- | --- |
-| **[KiCad BOM → ChipDip](https://github.com/MaxStriX324/kicad-bom-chipdip)** | Преобразование CSV-спецификации KiCad в список поиска компонентов | Общий TXT, список подтверждённых MPN, отчёты для проверки позиций |
-| **[KiCad SVG → LaserGRBL](https://github.com/MaxStriX324/kicad-svg-lasergrbl)** | Подготовка слоёв KiCad для лазерной обработки | Монохромные PNG, размеры и настройки импорта |
-| **[KiCad DRL → CNC3018](https://github.com/MaxStriX324/kicad-drl-cnc3018)** | Преобразование Excellon DRL для GRBL | Один `.tap` на входной DRL, вертикальная сортировка точек и сверление вдоль контуров |
-| **[STM32 ST-Link Flasher](https://github.com/MaxStriX324/stm32-stlink-flasher)** | Прошивка STM32F103/F405 из Windows через ST-Link | GUI, запись BIN, verify и журнал; тестирование на реальном оборудовании ещё требуется |
-| **[Rigol Oscilloscope Sorter](https://github.com/MaxStriX324/rigol-oscilloscope-sorter)** | Автоматическая организация измерений DHO814/DHO924S | Архив PNG, CSV/BIN, STP; XLSX для поддерживаемых аналоговых данных |
+| **[KiCad BOM → ChipDip](https://github.com/MaxStriX324/kicad-bom-chipdip)** | Подготовка BOM для ChipDip | TXT со всеми позициями и CSV для проверки |
+| **[KiCad SVG → LaserGRBL](https://github.com/MaxStriX324/kicad-svg-lasergrbl)** | Подготовка слоёв PCB для лазера | PNG и параметры масштаба |
+| **[KiCad DRL → CNC3018](https://github.com/MaxStriX324/kicad-drl-cnc3018)** | Подготовка сверловки для GRBL | Один TAP на DRL, вертикальная сортировка |
+| **[STM32 ST-Link Flasher](https://github.com/MaxStriX324/stm32-stlink-flasher)** | Прошивка STM32F103/F405 | GUI, запись BIN, verify и лог |
+| **[Rigol Oscilloscope Sorter](https://github.com/MaxStriX324/rigol-oscilloscope-sorter)** | Архивирование измерений | Архив PNG/CSV/BIN/STP, XLSX |
 
-**Рабочий процесс:** спецификация компонентов → подготовка изображений платы и сверловки → прошивка STM32 → архивирование результатов измерений.
+**Рабочий процесс:** спецификация компонентов → лазерные изображения платы → сверловка CNC3018 → прошивка STM32 → архивирование измерений.
 
-**Ограничения:** список ChipDip не является подтверждённым заказом; G-code CNC3018 необходимо проверять в визуализаторе и на холостом прогоне. Сверление вдоль контура не равно чистовой фрезеровке. У STM32 Flasher verify подтверждает запись во Flash, но не совместимость BIN с конкретной платой. Rigol Sorter сохраняет цифровые исходники, не обещая экспорт всех 16 каналов PLA2216 в Excel.
+**Ограничения:** Список ChipDip не является подтверждённым заказом. Масштаб и полярность лазера проверяются перед обработкой. Сверление по контуру не заменяет чистовую фрезеровку; траекторию нужно проверять. Verify не подтверждает совместимость BIN с платой; аппаратные испытания ещё требуются. Экспорт всех 16 цифровых каналов PLA2216 в XLSX не заявлен.
 
-[Описание автоматизации лаборатории на сайте →](https://maxstrix324.github.io/project/lab-automation/)
+[Описание лабораторной автоматизации на сайте →](https://maxstrix324.github.io/project/lab-automation/)
+<!-- LAB_TOOLS_GENERATED_END -->
 
 ## Инженерные и аппаратные проекты
 
